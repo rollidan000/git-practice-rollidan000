@@ -1,0 +1,14 @@
+e370124 Merge pull request #1 from thatrealtyguy/feature-thatrealtyguy
+258e4e3 Create Luke_Skywalker_Diary
+ecba7f7 Merge branch 'features'
+e3902cb new text on new_features
+c775891 no new features
+bddc7b9 Merge branch 'features' to main
+1140117 change file_1
+39e47c0 add new features
+70337a1 add empty file
+079259c create .gitignore
+ef8af47 create Readme
+5bbe8fe change file_2
+c3045d7 change file_1
+b21289c create new files

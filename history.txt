@@ -1,0 +1,193 @@
+   21  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n\n
+   34  brew install git
+   42  mkdir git
+   45  git config --global rollidan000 "Daniel Rollins"
+   46  git config --global extra "Daniel Rollins"
+   47  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   48  git --version
+   59  $ brew install git
+   60  brew install git
+   61  git --verson
+   62  git --version
+   70  cd git
+   73  mkdir practicegit
+   74  cd practicegit
+   78  git config --global user.name "Daniel Rollins"
+   79  git config --global user.email "rollidan000@gmail.com"
+   80  git config --global core.editor "code --wait"
+   81  git config --global init.defaultBranch main
+   93  cd practicegit
+   94  git init
+   97  git status
+  100  git add file1.txt
+  101  git add my.txt
+  102  git commit -m "First commit"
+  104  git add .
+  105  git commit -m "Rename file"
+  106  git log
+  107  git log
+  108  git log --oneline
+  109  touch .gitignore
+  110  code .gitignore
+  111  git status
+  112  git status
+  114  git add .gitignore
+  115  git add file_1.txt
+  116  git commit -m 'Create gitignore and file_1'
+  119  git status
+  120  code .gitignore
+  121  nano .gitignore
+  122  git add .
+  123  nano .gitignore
+  124  git add .
+  125  git commit -m 'edit gitignore'
+  126  git log --oneline
+  128  git branch
+  129  git branch new-feature
+  130  git branch
+  131  git switch new-feature
+  132  git branch
+  135  git status
+  136  git add .
+  137  git commit -m 'add file 2'
+  138  git log
+  139  git log --oneline
+  140  git switch main
+  141  git status
+  143  git merge new-feature
+  144  git log --oneline
+  145  git branch -d new-feature
+  146  git branch
+  147  git checkout 641dd6a
+  149  git switch main
+  150  git checkout 641dd6a
+  151  git status
+  152  git switch -
+  153  git status
+  155  git config --global core.editor "code --wait"
+  156  git user.name
+  157  git config user.name
+  158  git config user.email
+  159  git config --global user.name
+  160  git config --global user.email
+  166  cd practicegit
+  169  cd Documents/STAT386/practicegit
+  178  cd practicegit
+  180  git remote add origin git@github.com:rollidan000/git-practice-rollidan000.git
+  181  git push -u origin main
+  182  git status
+  185  git status
+  186  git push
+  187  git add
+  188  git add .
+  189  git commit
+  190  git commit -m 'Adjust file 2'
+  194  cd practicegit
+  196  git push
+  197  git push
+  199  mkdir git-practice-rollidan000
+  200  cd git-practice-rollidan000
+  201  git status
+  202  git init
+  204  git status
+  207  git status
+  208  git add .
+  209  git status
+  210  git commit -m 'create new files'
+  211  git status
+  212  git log
+  217  git status
+  218  git add file_1.txt
+  219  git commit -m 'change file_1'
+  220  git add file_2.txt
+  221  git commit -m 'change file_2'
+  222  git log
+  225  cd git-practice-rollidan000
+  226  git log
+  229  git log
+  231  cd git-practice-rollidan000
+  232  git log
+  233  cd Documents/STAT386/git-practice-rollidan000
+  234  git add
+  235  git add .
+  236  git commit -m 'Change Readme'
+  237  git log
+  239  cd git-practice-rollidan000
+  240  rm -fr .git
+  241  git status
+  244  rm git-practice-rollidan000
+  245  rm -r git-practice-rollidan000
+  247  mkdir git-practice-rollidan000
+  248  cd git-practice-rollidan000
+  249  git init
+  251  git status
+  254  git status
+  255  git add .
+  256  git status
+  257  git commit -m 'create new files'
+  258  git status
+  259  git log
+  262  git status
+  263  git add add file_1.txt
+  264  git add file_1.txt
+  265  git status
+  266  git commit -m 'change file_1'
+  267  git add file_2.txt
+  268  git commit -m 'change file_2'
+  269  git log
+  272  git add .
+  273  git commit -m 'create Readme'
+  274  git log
+  275  touch .gitignore
+  276  code .gitignore
+  278  git status
+  279  git add .gitignore
+  280  git commit -m 'create .gitignore'
+  281  git status
+  283  git log
+  284  git log
+  285  git branch features
+  286  git checkout branch features
+  287  git checkout features
+  288  git log
+  290  git add new_features.txt
+  291  git commit -m 'add empty file'
+  293  git add new_features.txt
+  294  git commit -m 'add new features'
+  295  git checkout main
+  297  git status
+  298  git add .
+  299  git commit -m 'change file_1'
+  300  git merge features
+  301  git log
+  302  git log --oneline
+  306  git add new_features.txt
+  307  git commit -m 'no new features'
+  308  git checkout features
+  310  git add new_features.txt
+  311  git commit -m 'new text on new_features'
+  312  git checkout main
+  313  git merge features
+  314  git log --oneline
+  315  git branch -d features
+  316  git remote add origin git@github.com:rollidan000/git-practice-rollidan000.git
+  317  git push -u origin main
+  319  git status
+  320  git clone git@github.com:rollidan000/git-practice-thatrealtyguy.git
+  322  cd git-practice-thatrealtyguy
+  327  git add .
+  328  git commit -m 'update file_2 and realnew features'
+  329  git push origin feature-rollidan000
+  331  rm -rf git-practice-thatrealtyguy
+  333  git clone git@github.com:rollidan000/git-practice-thatrealtyguy.git
+  334  cd git-practice-thatrealtyguy
+  335  git branch feature-rollidan000
+  336  git switch feature-rollidan000
+  339  git add .
+  340  git commit -m 'update file_2 and real_feature'
+  341  git push origin feature-rollidan000
+  342  git pull
+  344  cd git-practice-rollidan000
+  345  git pull
+  346  git log --oneline
+  347  git log --oneline > gitlog.txt
